@@ -1,0 +1,58 @@
+.LinkCompany{
+    text-decoration-line: none;
+    font-size: 19px;
+    font-weight: bolder;
+    color: steelblue;
+    align-self: center;
+}
+
+.CompanyPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.ContainerCompany{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    width: 125px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.ContainerCompany:hover{
+    background-color: #b1d2df;;
+    cursor: pointer;
+    border:  5px solid aliceblue;
+}
+
+.CompanySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #1C0C5B, #3D2C8D, #916BBF, #C996CC);
+    background-size: 400% 400%;
+    position: relative;
+    animation: companyBackground 15s ease-out infinite;
+}
+
+@keyframes companyBackground {
+    0%{
+        background-position: 30 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 30 50%;
+    }
+}
